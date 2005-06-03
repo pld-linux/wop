@@ -1,6 +1,6 @@
 %define		filedate 2004-09-25
 Summary:	Wörms of Prey
-Summary(pl):	Robaki modlitwy
+Summary(pl):	Drapie¿robaki
 Name:		wop
 Version:	0.3.1
 Release:	0.1
