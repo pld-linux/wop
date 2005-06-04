@@ -1,5 +1,6 @@
 %define		filedate 2004-09-25
-Summary:	Wörms of Prey
+Summary:	Worms of Prey
+Summary(en):	Wörms of Prey
 Summary(pl):	Drapie¿robaki
 Name:		wop
 Version:	0.3.1
@@ -19,11 +20,16 @@ BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Wörms of Prey is the new and free real-time Worms game for Linux and Windows.
+Worms of Prey is the new and free real-time Worms game for Linux and
+Windows.
+
+%description -l en
+Wörms of Prey is the new and free real-time Worms game for Linux and
+Windows.
 
 %description -l pl
-Wörms of Prey s± now± i darmow± gr± czasu rzeczywistego, podobn± do Worms dla
-Linuksa i windows.
+Wörms of Prey s± now± i darmow± gr± czasu rzeczywistego, podobn± do
+Worms dla Linuksa i windows.
 
 %prep
 %setup -q -n %{name}
