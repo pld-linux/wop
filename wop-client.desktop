@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Worms Of Prey client
+Name[pl]=Klient Worms Of Prey
+Comment=Worms clone game client
+Comment[pl]=Klient niekomercyjnego klonu gry Worms
+Exec=wop mode=client data=/usr/share/wop/wopdata/
+Icon=wop16.png
+Terminal=false
+Type=Application
+Categories=Game;StrategyGame;
+# vi: encoding=utf-8

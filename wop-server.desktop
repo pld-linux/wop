@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Worms Of Prey server
+Name[pl]=Serwer Worms Of Prey
+Comment=Worms clone game
+Comment[pl]=Niekomercyjny klon gry Worms
+Exec=wop mode=server data=/usr/share/wop/wopdata
+Icon=wop16.png
+Terminal=true
+Type=Application
+Categories=Game;StrategyGame;
+# vi: encoding=utf-8
