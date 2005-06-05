@@ -4,7 +4,7 @@ Name=Worms Of Prey client
 Name[pl]=Klient Worms Of Prey
 Comment=Worms clone game client
 Comment[pl]=Klient niekomercyjnego klonu gry Worms
-Exec=wop mode=client data=/usr/share/wop/wopdata/
+Exec=wop mode=client data=/usr/share/wop/
 Icon=wop16.png
 Terminal=false
 Type=Application
