@@ -34,10 +34,10 @@ Windows.
 
 %description -l pl
 Wörms of Prey s± now± i darmow± gr± czasu rzeczywistego, podobn± do
-Worms dla Linuksa i windows.
+Worms dla Linuksa i Windows.
 
 %prep
-%setup -q -a1 -n %{name}
+%setup -q -n %{name} -a1
 
 %build
 %{__make}
