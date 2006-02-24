@@ -3,14 +3,14 @@ Summary:	Worms of Prey
 Summary(en):	Wörms of Prey
 Summary(pl):	Drapie¿robaki
 Name:		wop
-Version:	0.3.1
-Release:	0.2
+Version:	0.4.2
+Release:	0.1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://wormsofprey.org/download/%{name}-%{version}-src.tar.bz2
-# Source0-md5:	ffc33965efc9287ffd7c6b34b790c12f
-Source1:	http://wormsofprey.org/download/%{name}data-2005-05-13.tar.bz2
-# Source1-md5:	a74d77b0db2817bd09637643f464c4fa
+# Source0-md5:	fc2567427b8970299f88df1d45aa106b
+Source1:	http://wormsofprey.org/download/%{name}data-2005-12-21.tar.bz2
+# Source1-md5:	0bf42f28e03dcac5c8066b46d7733907
 Source2:	%{name}-client.desktop
 Source3:	%{name}-server.desktop
 URL:		http://wormsofprey.org/
@@ -19,6 +19,7 @@ BuildRequires:	SDL_image-devel >= 1.2
 BuildRequires:	SDL_mixer-devel >= 1.2
 BuildRequires:	SDL_net-devel >= 1.2.5
 BuildRequires:	SDL_ttf-devel >= 2.0
+BuildRequires:	zlib-devel >= 1.2
 BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -37,7 +38,7 @@ Wörms of Prey s± now± i darmow± gr± czasu rzeczywistego, podobn± do
 Worms dla Linuksa i Windows.
 
 %prep
-%setup -q -n %{name} -a1
+%setup -q -a1
 
 %build
 %{__make}
@@ -48,7 +49,7 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_desktopdir},%{_pixmapsdir},%{_wopdata}}
 
 install bin/%{name} $RPM_BUILD_ROOT%{_bindir}
 install %{SOURCE2} %{SOURCE3} $RPM_BUILD_ROOT%{_desktopdir}
-cp -r wopdata-2005-05-13/* $RPM_BUILD_ROOT%{_wopdata}
+cp -r wopdata-2005-12-21/* $RPM_BUILD_ROOT%{_wopdata}
 ln -s %{_wopdata}/images/misc/icons/wop16.png $RPM_BUILD_ROOT%{_pixmapsdir}/wop16.png
 
 %clean
