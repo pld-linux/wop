@@ -3,12 +3,12 @@ Summary:	Worms of Prey
 Summary(en):	Wörms of Prey
 Summary(pl):	Drapie¿robaki
 Name:		wop
-Version:	0.4.2
-Release:	0.1
+Version:	0.4.3
+Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://wormsofprey.org/download/%{name}-%{version}-src.tar.bz2
-# Source0-md5:	fc2567427b8970299f88df1d45aa106b
+# Source0-md5:	ae07e9e1092de6c447a9af2cf8e90959
 Source1:	http://wormsofprey.org/download/%{name}data-2005-12-21.tar.bz2
 # Source1-md5:	0bf42f28e03dcac5c8066b46d7733907
 Source2:	%{name}-client.desktop
