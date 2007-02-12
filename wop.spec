@@ -1,7 +1,7 @@
 %define		filedate 2004-09-25
 Summary:	Worms of Prey
-Summary(en.UTF-8):   Wörms of Prey
-Summary(pl.UTF-8):   Drapieżrobaki
+Summary(en.UTF-8):	Wörms of Prey
+Summary(pl.UTF-8):	Drapieżrobaki
 Name:		wop
 Version:	0.4.3
 Release:	1
