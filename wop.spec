@@ -1,7 +1,7 @@
 %define		filedate 2004-09-25
 Summary:	Worms of Prey
-Summary(en):	Wörms of Prey
-Summary(pl):	Drapie¿robaki
+Summary(en.UTF-8):   WÃ¶rms of Prey
+Summary(pl.UTF-8):   DrapieÅ¼robaki
 Name:		wop
 Version:	0.4.3
 Release:	1
@@ -29,12 +29,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Worms of Prey is the new and free real-time Worms game for Linux and
 Windows.
 
-%description -l en
-Wörms of Prey is the new and free real-time Worms game for Linux and
+%description -l en.UTF-8
+WÃ¶rms of Prey is the new and free real-time Worms game for Linux and
 Windows.
 
-%description -l pl
-Wörms of Prey s± now± i darmow± gr± czasu rzeczywistego, podobn± do
+%description -l pl.UTF-8
+WÃ¶rms of Prey sÄ… nowÄ… i darmowÄ… grÄ… czasu rzeczywistego, podobnÄ… do
 Worms dla Linuksa i Windows.
 
 %prep
