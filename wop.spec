@@ -41,6 +41,8 @@ Worms dla Linuksa i Windows.
 %setup -q -a1
 
 %build
+touch {sdlwidgets,src}/Makefile.depend
+sed -i "s/-O3/%{rpmcflags}/" {sdlwidgets,src}/Makefile
 %{__make}
 
 %install
@@ -57,7 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc AUTHORS ChangeLog README README-COMMAND-LINE-OPTIONS.txt REVIEWS woprc
 %attr(755,root,root) %{_bindir}/%{name}
 %{_desktopdir}/%{name}-client.desktop
 %{_desktopdir}/%{name}-server.desktop
